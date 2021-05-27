@@ -1,5 +1,10 @@
 # arch-packages
+
 My packages for Arch which are either not updated or even removed from AUR.
+Repo contains following packages:
+
+- `neovim-nightly-bin`
+- `slock-bgimage`
 
 # How to use
 

@@ -1,4 +1,4 @@
 *.tar.gz
 *.pkg.tar.zst
-neovim-nightly-bin/pkg
-neovim-nightly-bin/src
+x86_64/neovim-nightly-bin/pkg
+x86_64/neovim-nightly-bin/src

@@ -13,8 +13,7 @@ cd ..
 rm alex-arch-repo.db
 rm alex-arch-repo.files
 
-mv $(/bin/ls -1 --sort=time neovim-nightly-bin/*.zst | head -n1) .
-repo-add alex-arch-repo.db.tar.gz -R $(/bin/ls -1 --sort=time neovim-nightly-bin-*.zst)
+repo-add alex-arch-repo.db.tar.gz -R $(/bin/ls -1 --sort=time neovim-nightly-bin/*.zst | head -n1)
 
 rm alex-arch-repo.db
 cp alex-arch-repo.db.tar.gz alex-arch-repo.db

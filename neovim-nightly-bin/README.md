@@ -1,7 +1,8 @@
 # NeoVIM Nightly - binary
 
 This is just copy of the AUR package: [NeoVIM nightly bin](https://aur.archlinux.org/packages/neovim-nightly-bin).
-But this package is marked out of date and might be deleted from the AUR after some time.
+
+I decided to make clone of it because this package is marked out of date and might be deleted from the AUR.
 
 ## How to use
 

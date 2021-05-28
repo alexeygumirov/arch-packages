@@ -3,7 +3,7 @@
 # Updating neovim package
 
 ## removing old one
-rm neovim-*tar..zst
+rm neovim-*tar.zst
 
 ## Building new one
 cd neovim-nightly-bin/

@@ -8,8 +8,9 @@ rm neovim-*tar.zst
 ## Building new one
 cd neovim-nightly-bin/
 
-NVIM_NIGHTLY_VERSION="pkgver="$(curl -s 'https://api.github.com/repos/neovim/neovim/releases' | jq '.[0].name' | sed 's/NVIM v//; s/-/+/g; s/"//g')
-sed -i "/^pkgver=*/c ${NVIM_NIGHTLY_VERSION}" PKGBUILD
+NVIM_NIGHTLY_VERSION=$(curl -s 'https://api.github.com/repos/neovim/neovim/releases' | jq '.[0].name' | sed 's/NVIM v//; s/"//g')
+NVIM_NIGHTLY_PKG_VERSION="pkgver="$(echo ${NVIM_NIGHTLY_VERSION} | sed 's/-/+/g')
+sed -i "/^pkgver=*/c ${NVIM_NIGHTLY_PKG_VERSION}" PKGBUILD
 makepkg -s
 mv *.zst ../
 rm *.tar.gz

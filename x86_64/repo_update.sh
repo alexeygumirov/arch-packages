@@ -27,3 +27,7 @@ cp alex-arch-repo.db.tar.gz alex-arch-repo.db
 
 rm alex-arch-repo.files
 cp alex-arch-repo.files.tar.gz alex-arch-repo.files
+
+# Git add and commit
+git add .
+git commit -m "NeoVIM Nightly ${NVIM_NIGHTLY_VERSION}"

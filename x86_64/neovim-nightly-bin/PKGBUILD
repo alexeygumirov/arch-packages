@@ -1,9 +1,9 @@
-# Maintainer: Kevin Del Castillo <quebin31@gmail.com>
+# Maintainer: Alexey Gumirov
 
 _pkgname=neovim
-_pkgver=0.5.0
+_pkgver=0.7.0
 pkgname=neovim-nightly-bin
-pkgver=Nvim development (prerelease) build
+pkgver=v0.7.0+dev+963+g082ff2190
 pkgrel=1
 pkgdesc='Neovim - Nightly Builds'
 arch=(x86_64 i686)

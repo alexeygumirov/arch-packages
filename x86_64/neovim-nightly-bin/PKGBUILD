@@ -3,7 +3,7 @@
 _pkgname=neovim
 _pkgver=0.7.0
 pkgname=neovim-nightly-bin
-pkgver=v0.7.0+dev+1093+g9ef569613
+pkgver=v0.7.0+dev+1233+gabbc9148d
 pkgrel=1
 pkgdesc='Neovim - Nightly Builds'
 arch=(x86_64 i686)
